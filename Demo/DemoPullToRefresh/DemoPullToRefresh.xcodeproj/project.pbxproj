@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B166389F186968DA0077E76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B166389E186968DA0077E76E /* Foundation.framework */; };
+		B16638A1186968DA0077E76E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16638A0186968DA0077E76E /* CoreGraphics.framework */; };
+		B16638A3186968DA0077E76E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16638A2186968DA0077E76E /* UIKit.framework */; };
+		B16638A9186968DA0077E76E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B16638A7186968DA0077E76E /* InfoPlist.strings */; };
+		B16638AB186968DA0077E76E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B16638AA186968DA0077E76E /* main.m */; };
+		B16638AF186968DA0077E76E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B16638AE186968DA0077E76E /* AppDelegate.m */; };
+		B16638C1186968DB0077E76E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16638C0186968DB0077E76E /* XCTest.framework */; };
+		B16638C2186968DB0077E76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B166389E186968DA0077E76E /* Foundation.framework */; };
+		B16638C3186968DB0077E76E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16638A2186968DA0077E76E /* UIKit.framework */; };
+		B16638DC18696A040077E76E /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B16638DA18696A040077E76E /* EGORefreshTableHeaderView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B16638DD18696A040077E76E /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B16638DB18696A040077E76E /* blackArrow.png */; };
+		B16638E518696A190077E76E /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B16638DE18696A190077E76E /* blackArrow@2x.png */; };
+		B16638E618696A190077E76E /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B16638DF18696A190077E76E /* blueArrow.png */; };
+		B16638E718696A190077E76E /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B16638E018696A190077E76E /* blueArrow@2x.png */; };
+		B16638E818696A190077E76E /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B16638E118696A190077E76E /* grayArrow.png */; };
+		B16638E918696A190077E76E /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B16638E218696A190077E76E /* grayArrow@2x.png */; };
+		B16638EA18696A190077E76E /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B16638E318696A190077E76E /* whiteArrow.png */; };
+		B16638EB18696A190077E76E /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B16638E418696A190077E76E /* whiteArrow@2x.png */; };
+		B16638EE18696A2D0077E76E /* EGORefreshHeaderViewIOS7.m in Sources */ = {isa = PBXBuildFile; fileRef = B16638ED18696A2D0077E76E /* EGORefreshHeaderViewIOS7.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B16638F618696B210077E76E /* MYTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16638F218696B210077E76E /* MYTableViewController.m */; };
+		B16638F718696B210077E76E /* MYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16638F418696B210077E76E /* MYWebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B16638C4186968DB0077E76E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1663893186968DA0077E76E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B166389A186968DA0077E76E;
+			remoteInfo = DemoPullToRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B166389B186968DA0077E76E /* DemoPullToRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPullToRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B166389E186968DA0077E76E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B16638A0186968DA0077E76E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B16638A2186968DA0077E76E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B16638A6186968DA0077E76E /* DemoPullToRefresh-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoPullToRefresh-Info.plist"; sourceTree = "<group>"; };
+		B16638A8186968DA0077E76E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B16638AA186968DA0077E76E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B16638AC186968DA0077E76E /* DemoPullToRefresh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DemoPullToRefresh-Prefix.pch"; sourceTree = "<group>"; };
+		B16638AD186968DA0077E76E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B16638AE186968DA0077E76E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B16638BF186968DB0077E76E /* DemoPullToRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoPullToRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16638C0186968DB0077E76E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B16638D918696A040077E76E /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshTableHeaderView.h; path = EGOTableViewPullRefresh_IOS7/EGOTableViewPullRefresh/Classes/View/EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		B16638DA18696A040077E76E /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshTableHeaderView.m; path = EGOTableViewPullRefresh_IOS7/EGOTableViewPullRefresh/Classes/View/EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		B16638DB18696A040077E76E /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blackArrow.png; path = EGOTableViewPullRefresh_IOS7/EGOTableViewPullRefresh/Resources/blackArrow.png; sourceTree = "<group>"; };
+		B16638DE18696A190077E76E /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blackArrow@2x.png"; path = "EGOTableViewPullRefresh_IOS7/EGOTableViewPullRefresh/Resources/blackArrow@2x.png"; sourceTree = "<group>"; };
+		B16638DF18696A190077E76E /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blueArrow.png; path = EGOTableViewPullRefresh_IOS7/EGOTableViewPullRefresh/Resources/blueArrow.png; sourceTree = "<group>"; };
+		B16638E018696A190077E76E /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "blueArrow@2x.png"; path = "EGOTableViewPullRefresh_IOS7/EGOTableViewPullRefresh/Resources/blueArrow@2x.png"; sourceTree = "<group>"; };
+		B16638E118696A190077E76E /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grayArrow.png; path = EGOTableViewPullRefresh_IOS7/EGOTableViewPullRefresh/Resources/grayArrow.png; sourceTree = "<group>"; };
+		B16638E218696A190077E76E /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "grayArrow@2x.png"; path = "EGOTableViewPullRefresh_IOS7/EGOTableViewPullRefresh/Resources/grayArrow@2x.png"; sourceTree = "<group>"; };
+		B16638E318696A190077E76E /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = whiteArrow.png; path = EGOTableViewPullRefresh_IOS7/EGOTableViewPullRefresh/Resources/whiteArrow.png; sourceTree = "<group>"; };
+		B16638E418696A190077E76E /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "whiteArrow@2x.png"; path = "EGOTableViewPullRefresh_IOS7/EGOTableViewPullRefresh/Resources/whiteArrow@2x.png"; sourceTree = "<group>"; };
+		B16638EC18696A2D0077E76E /* EGORefreshHeaderViewIOS7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EGORefreshHeaderViewIOS7.h; path = EGOTableViewPullRefresh_IOS7/EGORefreshHeaderViewIOS7.h; sourceTree = "<group>"; };
+		B16638ED18696A2D0077E76E /* EGORefreshHeaderViewIOS7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EGORefreshHeaderViewIOS7.m; path = EGOTableViewPullRefresh_IOS7/EGORefreshHeaderViewIOS7.m; sourceTree = "<group>"; };
+		B16638F118696B210077E76E /* MYTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYTableViewController.h; sourceTree = "<group>"; };
+		B16638F218696B210077E76E /* MYTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYTableViewController.m; sourceTree = "<group>"; };
+		B16638F318696B210077E76E /* MYWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYWebViewController.h; sourceTree = "<group>"; };
+		B16638F418696B210077E76E /* MYWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYWebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1663898186968DA0077E76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16638A1186968DA0077E76E /* CoreGraphics.framework in Frameworks */,
+				B16638A3186968DA0077E76E /* UIKit.framework in Frameworks */,
+				B166389F186968DA0077E76E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16638BC186968DB0077E76E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16638C1186968DB0077E76E /* XCTest.framework in Frameworks */,
+				B16638C3186968DB0077E76E /* UIKit.framework in Frameworks */,
+				B16638C2186968DB0077E76E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1663892186968DA0077E76E = {
+			isa = PBXGroup;
+			children = (
+				B16638A4186968DA0077E76E /* DemoPullToRefresh */,
+				B166389D186968DA0077E76E /* Frameworks */,
+				B166389C186968DA0077E76E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B166389C186968DA0077E76E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B166389B186968DA0077E76E /* DemoPullToRefresh.app */,
+				B16638BF186968DB0077E76E /* DemoPullToRefreshTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B166389D186968DA0077E76E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B166389E186968DA0077E76E /* Foundation.framework */,
+				B16638A0186968DA0077E76E /* CoreGraphics.framework */,
+				B16638A2186968DA0077E76E /* UIKit.framework */,
+				B16638C0186968DB0077E76E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B16638A4186968DA0077E76E /* DemoPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				B16638D6186969AF0077E76E /* EGOTableViewPullRefresh_IOS7 */,
+				B16638AD186968DA0077E76E /* AppDelegate.h */,
+				B16638AE186968DA0077E76E /* AppDelegate.m */,
+				B16638F118696B210077E76E /* MYTableViewController.h */,
+				B16638F218696B210077E76E /* MYTableViewController.m */,
+				B16638F318696B210077E76E /* MYWebViewController.h */,
+				B16638F418696B210077E76E /* MYWebViewController.m */,
+				B16638A5186968DA0077E76E /* Supporting Files */,
+			);
+			path = DemoPullToRefresh;
+			sourceTree = "<group>";
+		};
+		B16638A5186968DA0077E76E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B16638A6186968DA0077E76E /* DemoPullToRefresh-Info.plist */,
+				B16638A7186968DA0077E76E /* InfoPlist.strings */,
+				B16638AA186968DA0077E76E /* main.m */,
+				B16638AC186968DA0077E76E /* DemoPullToRefresh-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B16638D6186969AF0077E76E /* EGOTableViewPullRefresh_IOS7 */ = {
+			isa = PBXGroup;
+			children = (
+				B16638EC18696A2D0077E76E /* EGORefreshHeaderViewIOS7.h */,
+				B16638ED18696A2D0077E76E /* EGORefreshHeaderViewIOS7.m */,
+				B16638D7186969C80077E76E /* EGOTableViewPullRefresh */,
+			);
+			name = EGOTableViewPullRefresh_IOS7;
+			sourceTree = "<group>";
+		};
+		B16638D7186969C80077E76E /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				B16638D918696A040077E76E /* EGORefreshTableHeaderView.h */,
+				B16638DA18696A040077E76E /* EGORefreshTableHeaderView.m */,
+				B16638DB18696A040077E76E /* blackArrow.png */,
+				B16638DE18696A190077E76E /* blackArrow@2x.png */,
+				B16638DF18696A190077E76E /* blueArrow.png */,
+				B16638E018696A190077E76E /* blueArrow@2x.png */,
+				B16638E118696A190077E76E /* grayArrow.png */,
+				B16638E218696A190077E76E /* grayArrow@2x.png */,
+				B16638E318696A190077E76E /* whiteArrow.png */,
+				B16638E418696A190077E76E /* whiteArrow@2x.png */,
+			);
+			name = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B166389A186968DA0077E76E /* DemoPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16638D0186968DB0077E76E /* Build configuration list for PBXNativeTarget "DemoPullToRefresh" */;
+			buildPhases = (
+				B1663897186968DA0077E76E /* Sources */,
+				B1663898186968DA0077E76E /* Frameworks */,
+				B1663899186968DA0077E76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoPullToRefresh;
+			productName = DemoPullToRefresh;
+			productReference = B166389B186968DA0077E76E /* DemoPullToRefresh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B16638BE186968DB0077E76E /* DemoPullToRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16638D3186968DB0077E76E /* Build configuration list for PBXNativeTarget "DemoPullToRefreshTests" */;
+			buildPhases = (
+				B16638BB186968DB0077E76E /* Sources */,
+				B16638BC186968DB0077E76E /* Frameworks */,
+				B16638BD186968DB0077E76E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B16638C5186968DB0077E76E /* PBXTargetDependency */,
+			);
+			name = DemoPullToRefreshTests;
+			productName = DemoPullToRefreshTests;
+			productReference = B16638BF186968DB0077E76E /* DemoPullToRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1663893186968DA0077E76E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = hayatomo.com;
+				TargetAttributes = {
+					B16638BE186968DB0077E76E = {
+						TestTargetID = B166389A186968DA0077E76E;
+					};
+				};
+			};
+			buildConfigurationList = B1663896186968DA0077E76E /* Build configuration list for PBXProject "DemoPullToRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1663892186968DA0077E76E;
+			productRefGroup = B166389C186968DA0077E76E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B166389A186968DA0077E76E /* DemoPullToRefresh */,
+				B16638BE186968DB0077E76E /* DemoPullToRefreshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1663899186968DA0077E76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16638E818696A190077E76E /* grayArrow.png in Resources */,
+				B16638A9186968DA0077E76E /* InfoPlist.strings in Resources */,
+				B16638DD18696A040077E76E /* blackArrow.png in Resources */,
+				B16638E718696A190077E76E /* blueArrow@2x.png in Resources */,
+				B16638E518696A190077E76E /* blackArrow@2x.png in Resources */,
+				B16638EA18696A190077E76E /* whiteArrow.png in Resources */,
+				B16638E918696A190077E76E /* grayArrow@2x.png in Resources */,
+				B16638EB18696A190077E76E /* whiteArrow@2x.png in Resources */,
+				B16638E618696A190077E76E /* blueArrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16638BD186968DB0077E76E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1663897186968DA0077E76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16638DC18696A040077E76E /* EGORefreshTableHeaderView.m in Sources */,
+				B16638AF186968DA0077E76E /* AppDelegate.m in Sources */,
+				B16638F718696B210077E76E /* MYWebViewController.m in Sources */,
+				B16638EE18696A2D0077E76E /* EGORefreshHeaderViewIOS7.m in Sources */,
+				B16638F618696B210077E76E /* MYTableViewController.m in Sources */,
+				B16638AB186968DA0077E76E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16638BB186968DB0077E76E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B16638C5186968DB0077E76E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B166389A186968DA0077E76E /* DemoPullToRefresh */;
+			targetProxy = B16638C4186968DB0077E76E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B16638A7186968DA0077E76E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16638A8186968DA0077E76E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B16638CE186968DB0077E76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B16638CF186968DB0077E76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B16638D1186968DB0077E76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoPullToRefresh/DemoPullToRefresh-Prefix.pch";
+				INFOPLIST_FILE = "DemoPullToRefresh/DemoPullToRefresh-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B16638D2186968DB0077E76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoPullToRefresh/DemoPullToRefresh-Prefix.pch";
+				INFOPLIST_FILE = "DemoPullToRefresh/DemoPullToRefresh-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B16638D4186968DB0077E76E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoPullToRefresh.app/DemoPullToRefresh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoPullToRefresh/DemoPullToRefresh-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DemoPullToRefreshTests/DemoPullToRefreshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B16638D5186968DB0077E76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DemoPullToRefresh.app/DemoPullToRefresh";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DemoPullToRefresh/DemoPullToRefresh-Prefix.pch";
+				INFOPLIST_FILE = "DemoPullToRefreshTests/DemoPullToRefreshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1663896186968DA0077E76E /* Build configuration list for PBXProject "DemoPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16638CE186968DB0077E76E /* Debug */,
+				B16638CF186968DB0077E76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16638D0186968DB0077E76E /* Build configuration list for PBXNativeTarget "DemoPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16638D1186968DB0077E76E /* Debug */,
+				B16638D2186968DB0077E76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B16638D3186968DB0077E76E /* Build configuration list for PBXNativeTarget "DemoPullToRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16638D4186968DB0077E76E /* Debug */,
+				B16638D5186968DB0077E76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1663893186968DA0077E76E /* Project object */;
+}
